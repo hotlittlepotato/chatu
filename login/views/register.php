@@ -1,3 +1,4 @@
+<?php include('inc/nav.php');?>
 <?php
 // show potential errors / feedback (from registration object)
 if (isset($registration)) {

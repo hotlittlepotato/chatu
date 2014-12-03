@@ -13,8 +13,8 @@ if (isset($login)) {
     }
 }
 ?>
-
 <!-- login form box -->
+<div class="container lrg-mar-top">
 <form method="post" action="index.php" name="loginform">
 
     <label for="login_input_username">Username</label>
@@ -28,3 +28,4 @@ if (isset($login)) {
 </form>
 
 <a href="register.php">Register new account</a>
+</div>
